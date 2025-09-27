@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "/workspaces/pro-asp.net-core-mvc-2/02 - Your First MVC Application/PartyInvites/PartyInvites/PartyInvites.csproj": {}
+  },
+  "projects": {
+    "/workspaces/pro-asp.net-core-mvc-2/02 - Your First MVC Application/PartyInvites/PartyInvites/PartyInvites.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspaces/pro-asp.net-core-mvc-2/02 - Your First MVC Application/PartyInvites/PartyInvites/PartyInvites.csproj",
+        "projectName": "PartyInvites",
+        "projectPath": "/workspaces/pro-asp.net-core-mvc-2/02 - Your First MVC Application/PartyInvites/PartyInvites/PartyInvites.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/pro-asp.net-core-mvc-2/02 - Your First MVC Application/PartyInvites/PartyInvites/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "targetAlias": "netcoreapp2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "targetAlias": "netcoreapp2.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.412/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
